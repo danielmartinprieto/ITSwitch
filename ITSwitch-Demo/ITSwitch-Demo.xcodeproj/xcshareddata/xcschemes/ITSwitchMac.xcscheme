@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65954EE21B3971100058CAED"
-               BuildableName = "ITSwitch.framework"
-               BlueprintName = "ITSwitch"
+               BuildableName = "ITSwitchMac.framework"
+               BlueprintName = "ITSwitchMac"
                ReferencedContainer = "container:ITSwitch-Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65954EE21B3971100058CAED"
-            BuildableName = "ITSwitch.framework"
-            BlueprintName = "ITSwitch"
+            BuildableName = "ITSwitchMac.framework"
+            BlueprintName = "ITSwitchMac"
             ReferencedContainer = "container:ITSwitch-Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,8 +61,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "65954EE21B3971100058CAED"
-            BuildableName = "ITSwitch.framework"
-            BlueprintName = "ITSwitch"
+            BuildableName = "ITSwitchMac.framework"
+            BlueprintName = "ITSwitchMac"
             ReferencedContainer = "container:ITSwitch-Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
