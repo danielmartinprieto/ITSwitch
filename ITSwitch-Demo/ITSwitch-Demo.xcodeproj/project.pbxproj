@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65954EE81B3971100058CAED /* ITSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 65954EE71B3971100058CAED /* ITSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65954EEE1B3971100058CAED /* ITSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65954EE31B3971100058CAED /* ITSwitch.framework */; };
+		65954EE81B3971100058CAED /* ITSwitchMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 65954EE71B3971100058CAED /* ITSwitchMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65954EEE1B3971100058CAED /* ITSwitchMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65954EE31B3971100058CAED /* ITSwitchMac.framework */; };
 		65954EF71B3971100058CAED /* ITSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65954EF61B3971100058CAED /* ITSwitchTests.swift */; };
-		65954EFA1B3971100058CAED /* ITSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65954EE31B3971100058CAED /* ITSwitch.framework */; };
-		65954EFB1B3971100058CAED /* ITSwitch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65954EE31B3971100058CAED /* ITSwitch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		65954EFA1B3971100058CAED /* ITSwitchMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65954EE31B3971100058CAED /* ITSwitchMac.framework */; };
+		65954EFB1B3971100058CAED /* ITSwitchMac.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 65954EE31B3971100058CAED /* ITSwitchMac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65954F031B3971400058CAED /* ITSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 91D13E2C189D08A30019E3B7 /* ITSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65954F041B3971490058CAED /* ITSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D13E2D189D08A30019E3B7 /* ITSwitch.m */; };
 		91D13E2E189D08A30019E3B7 /* ITSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D13E2D189D08A30019E3B7 /* ITSwitch.m */; };
@@ -67,7 +67,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				65954EFB1B3971100058CAED /* ITSwitch.framework in Embed Frameworks */,
+				65954EFB1B3971100058CAED /* ITSwitchMac.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,9 +75,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		65954EE31B3971100058CAED /* ITSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ITSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65954EE31B3971100058CAED /* ITSwitchMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ITSwitchMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65954EE61B3971100058CAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65954EE71B3971100058CAED /* ITSwitch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITSwitch.h; sourceTree = "<group>"; };
+		65954EE71B3971100058CAED /* ITSwitchMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITSwitchMac.h; sourceTree = "<group>"; };
 		65954EED1B3971100058CAED /* ITSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65954EF51B3971100058CAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65954EF61B3971100058CAED /* ITSwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITSwitchTests.swift; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65954EEE1B3971100058CAED /* ITSwitch.framework in Frameworks */,
+				65954EEE1B3971100058CAED /* ITSwitchMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65954EFA1B3971100058CAED /* ITSwitch.framework in Frameworks */,
+				65954EFA1B3971100058CAED /* ITSwitchMac.framework in Frameworks */,
 				91DEA3AC189D0B2000F5713B /* QuartzCore.framework in Frameworks */,
 				91F4F437189D085F00023528 /* Cocoa.framework in Frameworks */,
 			);
@@ -146,7 +146,7 @@
 		65954EE41B3971100058CAED /* ITSwitch */ = {
 			isa = PBXGroup;
 			children = (
-				65954EE71B3971100058CAED /* ITSwitch.h */,
+				65954EE71B3971100058CAED /* ITSwitchMac.h */,
 				65954EE51B3971100058CAED /* Supporting Files */,
 			);
 			path = ITSwitch;
@@ -203,7 +203,7 @@
 			children = (
 				91F4F433189D085F00023528 /* ITSwitch-Demo.app */,
 				91F4F454189D085F00023528 /* ITSwitch-DemoTests.xctest */,
-				65954EE31B3971100058CAED /* ITSwitch.framework */,
+				65954EE31B3971100058CAED /* ITSwitchMac.framework */,
 				65954EED1B3971100058CAED /* ITSwitchTests.xctest */,
 			);
 			name = Products;
@@ -280,7 +280,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65954EE81B3971100058CAED /* ITSwitch.h in Headers */,
+				65954EE81B3971100058CAED /* ITSwitchMac.h in Headers */,
 				65954F031B3971400058CAED /* ITSwitch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,9 +288,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		65954EE21B3971100058CAED /* ITSwitch */ = {
+		65954EE21B3971100058CAED /* ITSwitchMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65954F001B3971100058CAED /* Build configuration list for PBXNativeTarget "ITSwitch" */;
+			buildConfigurationList = 65954F001B3971100058CAED /* Build configuration list for PBXNativeTarget "ITSwitchMac" */;
 			buildPhases = (
 				65954EDE1B3971100058CAED /* Sources */,
 				65954EDF1B3971100058CAED /* Frameworks */,
@@ -301,9 +301,9 @@
 			);
 			dependencies = (
 			);
-			name = ITSwitch;
+			name = ITSwitchMac;
 			productName = ITSwitch;
-			productReference = 65954EE31B3971100058CAED /* ITSwitch.framework */;
+			productReference = 65954EE31B3971100058CAED /* ITSwitchMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		65954EEC1B3971100058CAED /* ITSwitchTests */ = {
@@ -399,7 +399,7 @@
 			targets = (
 				91F4F432189D085F00023528 /* ITSwitch-Demo */,
 				91F4F453189D085F00023528 /* ITSwitch-DemoTests */,
-				65954EE21B3971100058CAED /* ITSwitch */,
+				65954EE21B3971100058CAED /* ITSwitchMac */,
 				65954EEC1B3971100058CAED /* ITSwitchTests */,
 			);
 		};
@@ -481,7 +481,7 @@
 /* Begin PBXTargetDependency section */
 		65954EF01B3971100058CAED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65954EE21B3971100058CAED /* ITSwitch */;
+			target = 65954EE21B3971100058CAED /* ITSwitchMac */;
 			targetProxy = 65954EEF1B3971100058CAED /* PBXContainerItemProxy */;
 		};
 		65954EF21B3971100058CAED /* PBXTargetDependency */ = {
@@ -491,7 +491,7 @@
 		};
 		65954EF91B3971100058CAED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65954EE21B3971100058CAED /* ITSwitch */;
+			target = 65954EE21B3971100058CAED /* ITSwitchMac */;
 			targetProxy = 65954EF81B3971100058CAED /* PBXContainerItemProxy */;
 		};
 		91F4F459189D085F00023528 /* PBXTargetDependency */ = {
@@ -787,7 +787,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65954F001B3971100058CAED /* Build configuration list for PBXNativeTarget "ITSwitch" */ = {
+		65954F001B3971100058CAED /* Build configuration list for PBXNativeTarget "ITSwitchMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65954EFC1B3971100058CAED /* Debug */,

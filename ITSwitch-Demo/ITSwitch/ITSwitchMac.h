@@ -15,4 +15,4 @@ FOUNDATION_EXPORT double ITSwitchVersionNumber;
 FOUNDATION_EXPORT const unsigned char ITSwitchVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ITSwitch/PublicHeader.h>
-#import <ITSwitch/ITSwitch.h>
+#import <ITSwitchMac/ITSwitch.h>
